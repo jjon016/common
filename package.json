@@ -1,15 +1,15 @@
 {
   "name": "@fadecoding/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common code",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
-  "files":[
+  "files": [
     "build/**/*"
   ],
   "scripts": {
     "clean": "del-cli ./build/*",
-    "build": "npm run clean && tsc"    
+    "build": "npm run clean && tsc"
   },
   "keywords": [],
   "author": "",
